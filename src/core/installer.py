@@ -5,7 +5,7 @@ import os
 import subprocess
 import re
 import shutil
-from src.core.db_manager import DBManager
+from .db_manager import DBManager
 
 class Installer:
     def __init__(self, file_path, log_callback=None, db_manager=None):

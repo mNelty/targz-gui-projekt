@@ -4,9 +4,9 @@ import os
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QTextEdit, QDialog, QMessageBox
 from PyQt5.QtCore import QThread, pyqtSignal
 
-from src.core.installer import Installer
-from src.core.db_manager import DBManager
-from src.ui.inspection_dialog import InspectionDialog
+from ..core.installer import Installer
+from ..core.db_manager import DBManager
+from .inspection_dialog import InspectionDialog
 
 # --- Global DB Manager ---
 config_dir = os.path.expanduser("~/.config/library")

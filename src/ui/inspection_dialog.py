@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import (QApplication, QDialog, QVBoxLayout, QHBoxLayout,
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
 from PyQt5.QtCore import Qt
 
-from src.core.installer import Installer 
+from ..core.installer import Installer
 
 class InspectionDialog(QDialog):
     def __init__(self, archive_path, parent=None):
